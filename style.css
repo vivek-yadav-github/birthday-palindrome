@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #1b262c;
+  color: white;
+}
+
+h2 {
+  text-shadow: 2px 2px 10px whitesmoke;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main {
+  text-align: center;
+  height: 100%;
+}
+
+p {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: large;
+}
+#show-btn {
+  margin-top: 10px;
+  font-size: 10px;
+}
+#show-btn:hover {
+  background-color: tomato;
+  color: black;
+  border-radius: 2px;
+}
